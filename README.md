@@ -5,7 +5,9 @@ public class stroy {
 
 	  public static void main(String[] args) {
 	    Scanner myChar = new Scanner(System.in);  // Create a Scanner object
-	    System.out.println("Enter The main Character of the Story:");
+	    System.out.println("Are you ready to write a story about a lying shepherd with me?");
+	    System.out.println();
+	    System.out.println("If, YES! Enter The main Character of the Story:");
 
 	    String my_Char = myChar.nextLine();
 	    
@@ -38,11 +40,9 @@ public class stroy {
 			 
 			      else if (yourChoice <= 100)
 			    	System.out.print(myStory4 + myStory5 + my_Char + myStory6);
-			      
-			      else 
-			    	System.out.println("Please enter number");
+		         
 			    	
-			    break;
+		         break;
 			    
 			    }
 	    	
@@ -65,6 +65,8 @@ public class stroy {
 	    String myStory12= "The villagers were very angry with him";
 	    String myStory13= "Many months have passed, and on a cold winter night his sheep were really decapitated and the thief burned down his barn.";
 	    String myStory14= "He wanted to help from villagers. ";
+	    
+	    
 	    
 	    
 	    Scanner sc2= new Scanner(System.in);
@@ -93,12 +95,13 @@ public class stroy {
 		    		 System.out.print(myStory9 + myStory10 + myStory11 + myStory12 + myStory13 + myStory14 );
 		    	 }
 	     
-		  else 
-		    	System.out.println("Please enter number");
-		    	
+		  
 		    break;
 		    
 		}
+	    
+	    
+	    
 	    
 	    System.out.println();
 	    System.out.println("So, What do you think, Did the villagers believe in the shepherd?");
@@ -118,13 +121,6 @@ public class stroy {
 	  
 	  
 }
-
-
-	  
-
-	   
-	    
-	    
 
 	  
 	  
